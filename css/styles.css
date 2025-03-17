@@ -132,17 +132,35 @@ a:hover {
 	text-decoration: none;
 }
 
-.read-more {
+/* .read-more {
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
-}
+} */
 
-.read-more .fas {
+/* .read-more .fas {
 	margin-left: 0.625rem;
 	font-size: 1rem;
 	vertical-align: -8%;
-}
+} */
+
+.read-more {
+	background-color: #daee81; /* Green background */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px; /* Slightly rounded corners */
+  }
+
+  .read-more:hover {
+	background-color: #9bea9f;
+  }
 
 .blue {
 	color: #0092ff;
